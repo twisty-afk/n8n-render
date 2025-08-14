@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    disk:
+      name: n8n-data
+      mountPath: /home/node/.n8n
+      sizeGB: 1
